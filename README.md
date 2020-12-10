@@ -16,7 +16,7 @@ from Connect4 import Connect4
     Hello from the pygame community. https://www.pygame.org/contribute.html
     
 
-![image.png](attachment:image.png)
+![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG1.png?raw=true)
 
 # Connect4, Python, AI, oh My!
 
