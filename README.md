@@ -12,9 +12,6 @@ from Robots import Robots
 from Connect4 import Connect4
 ```
 
-    pygame 1.9.6
-    Hello from the pygame community. https://www.pygame.org/contribute.html
-    
 
 ![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG1.png?raw=true)
 
@@ -226,8 +223,7 @@ print('Score:',gameplay.Get_Score(1,board))
 
 ### The robots who play the game
 
-![image.png](attachment:image.png)
-
+![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG2.png?raw=true)
 
 ```python
 bots=Robots()
@@ -331,7 +327,7 @@ Starting from the bottom state and working up, the algorithm choses the directio
 
 https://www.baeldung.com/wp-content/uploads/2017/07/minimax.png
 
-![image.png](attachment:image.png)
+![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG3.png?raw=true)
 
 If we were to look 5 steps ahead, how many states will we be expanding?
 
@@ -445,15 +441,15 @@ In Artificial Intelegence, an agent is some entity that interacts with an enviro
 Reinforcement learning is about having an AI agent learn what best actions to take by interacting with the environment over and over again, and receiving some reward.
 
 
-![image.png](attachment:image.png)
+![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG4.png?raw=true)
 
 ### Neural Networks
 
-![image.png](attachment:image.png)
+![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG5.png?raw=true)
 
 ## Metrics
 
-![image.png](attachment:image.png)
+![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG6.png?raw=true)
 
 
 ```python
@@ -501,24 +497,7 @@ p1wins,p2wins=play_games('AlphaBeta','Rando',g,d=DEPTH)
 print('Precentage player1 wins:',round(p1wins/g,2))
 ```
 
-    WARNING:tensorflow:From C:\Users\wamsa\Anaconda3\lib\site-packages\tensorflow_core\python\ops\resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
-    Instructions for updating:
-    If using Keras pass *_constraint arguments to layers.
-    
-
-    C:\Users\wamsa\Anaconda3\lib\site-packages\tensorboard\compat\tensorflow_stub\dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-      _np_qint8 = np.dtype([("qint8", np.int8, 1)])
-    C:\Users\wamsa\Anaconda3\lib\site-packages\tensorboard\compat\tensorflow_stub\dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-      _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
-    C:\Users\wamsa\Anaconda3\lib\site-packages\tensorboard\compat\tensorflow_stub\dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-      _np_qint16 = np.dtype([("qint16", np.int16, 1)])
-    C:\Users\wamsa\Anaconda3\lib\site-packages\tensorboard\compat\tensorflow_stub\dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-      _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
-    C:\Users\wamsa\Anaconda3\lib\site-packages\tensorboard\compat\tensorflow_stub\dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-      _np_qint32 = np.dtype([("qint32", np.int32, 1)])
-    C:\Users\wamsa\Anaconda3\lib\site-packages\tensorboard\compat\tensorflow_stub\dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
-      np_resource = np.dtype([("resource", np.ubyte, 1)])
-    
+   
 
     Precentage player1 wins: 0.99
     
