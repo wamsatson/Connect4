@@ -1,6 +1,11 @@
 # Connect4
 Connect4 bay-beeeeee
 
+# Connect4, Python, AI, oh My!
+
+Hello! I built Connect4 robots with python, and this notebook is here to help me explain it
+
+There are three main files: Connect4.py, GamePlay.py, and Robots.py
 
 
 ```python
@@ -15,11 +20,6 @@ from Connect4 import Connect4
 
 ![alt text](https://github.com/wamsatson/Connect4/blob/main/pictures/IMG1.png?raw=true)
 
-# Connect4, Python, AI, oh My!
-
-Hello! I built Connect4 robots with python, and this notebook is here to help me explain it
-
-There are three files: Connect4.py, GamePlay.py, and Robots.py
 
 ## Connect4.py
 ### Playing the Game
